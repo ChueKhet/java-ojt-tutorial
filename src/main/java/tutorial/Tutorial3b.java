@@ -1,21 +1,21 @@
 package main.java.tutorial;
 
-import java.util.Arrays;
+import java.util.ArrayList;
 
 public class Tutorial3b {
 	public static void main(String[] args) {
-		   int[] array = {25, 14, 56, 15, 36};
-		   
-		   System.out.println("Original Array : "+Arrays.toString(array));     
+		ArrayList<Integer> array = new ArrayList<>();
+		array.add(34);	
+		array.add(23);		   
+		array.add(89);		   
+		array.add(25);		   
+		array.add(68);		   
+		System.out.println("Original Array : "+ array);
 		   
 		  
-		   int remove = 0;
-
-		   for(int i = remove; i < array.length -1; i++){
-		        array[i] = array[i + 1];
-		      }
-		
-		    System.out.println("After Remove element: "+Arrays.toString(array));
-		 }
+		array.remove(3)	;	
+		    
+		System.out.println("After Remove element: "+array);
+	}
 
 }
