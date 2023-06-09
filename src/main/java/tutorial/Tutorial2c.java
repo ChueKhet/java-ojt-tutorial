@@ -21,6 +21,4 @@ public class Tutorial2c {
 		input.close();
 	}
 
-
-
 }
