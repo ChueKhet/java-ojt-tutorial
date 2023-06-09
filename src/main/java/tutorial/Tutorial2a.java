@@ -11,11 +11,11 @@ public class Tutorial2a {
 		if( i<0) {
 			System.out.println("Number is negative");
 		}
-		else if(i<35) {
-			System.out.println("Number is positive :false");
+		else if(i>0) {
+			System.out.println("Number is positive");
 		}
-		else if(i>35){
-			System.out.println("Number is positive : true");
+		else{
+			System.out.println("Number is zero");
 		}
 		input.close();
 	}
